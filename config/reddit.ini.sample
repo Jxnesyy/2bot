@@ -1,0 +1,14 @@
+[reddit]
+client_id      = YOUR_CLIENT_ID
+client_secret  = YOUR_CLIENT_SECRET
+user_agent     = yourbot/0.1 by jxnesy_x27
+redirect_uri   = http://localhost:8000
+refresh_token  = YOUR_REFRESH_TOKEN
+
+[bot]
+subreddits       = NFT+CryptoArt+ethNFT+NFTsMarketplace+NFTs+OpenSea
+keywords         = nft,fiverr,commission,digital art,crypto art,mint,collection,blockchain,ERC-721,opensea
+fiverr_link      = https://www.fiverr.com/nathanjones8676/design-deploy-and-launch-your-nft-collection
+cooldown_minutes = 5
+blacklist        = fiverr,forhire,spam
+whitelist        = NFTHelp,NFTsMarketplace,OpenSea
